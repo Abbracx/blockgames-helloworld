@@ -43,7 +43,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.8.12+commit.f00d7308\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"string\",\"name\":\"_holder\",\"type\":\"string\"}],\"name\":\"HolderChanged\",\"type\":\"event\"},{\"inputs\":[],\"name\":\"getHolder\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"string\",\"name\":\"_holder\",\"type\":\"string\"}],\"name\":\"setHolder\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/HelloWorld.sol\":\"HelloWorld\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/HelloWorld.sol\":{\"keccak256\":\"0xc1b7b1a97221f93e2cb9fee890c6ef007e424da83b24a8662cfb0b8a3471d4ca\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://eb9560a7f13ffadeb25704d81e64f4108c3d4ad44c97151d2ddae0a46875d379\",\"dweb:/ipfs/QmXnG1BaUHnMDjbxbBJaCwrodf9Ef1itV9sHPkM98eLdZ5\"]}},\"version\":1}",
@@ -4599,9 +4600,17 @@
     "name": "solc",
     "version": "0.8.12+commit.f00d7308.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "4": {
+      "events": {},
+      "links": {},
+      "address": "0xC6CF6B6EEa4e45160c79E6896F155e31a8a9E19e",
+      "transactionHash": "0x26aa41423947dd23a458126dedbd7b8b951178266d45aa34a65b84682bef69c6"
+    }
+  },
   "schemaVersion": "3.4.3",
-  "updatedAt": "2022-03-10T16:11:37.816Z",
+  "updatedAt": "2022-03-10T16:18:16.214Z",
+  "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
     "methods": {},
