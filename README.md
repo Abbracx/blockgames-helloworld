@@ -3,7 +3,7 @@
 ### Project assumes you have [truffle](https://trufflesuite.com/truffle/) and [ganache](https://trufflesuite.com/ganache/) installed.
 For local development purposes ganache-cli was use for test purposes. on terminal run ```ganache-cli --deterministic```.
 
-[Address](https://rinkeby.etherscan.io/address/0xC6CF6B6EEa4e45160c79E6896F155e31a8a9E19e#code)
+[Address:0xC6CF6B6EEa4e45160c79E6896F155e31a8a9E19e](https://rinkeby.etherscan.io/address/0xC6CF6B6EEa4e45160c79E6896F155e31a8a9E19e#code)
 
 Below are the steps to set up:
 
